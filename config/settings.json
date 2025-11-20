@@ -1,0 +1,16 @@
+{
+  "app": {
+    "name": "AIOS Desktop",
+    "version": "1.0.0"
+  },
+  "security": {
+    "whitelisted_commands": ["ls", "pwd", "echo", "cat"],
+    "rate_limit": 100,
+    "auth_required": true
+  },
+  "integrations": {
+    "aios_brain_url": "https://mock-aios-brain.com/api",
+    "computress_ai_url": "https://mock-computress-ai.com/api",
+    "uscl_protocol": "json"
+  }
+}
