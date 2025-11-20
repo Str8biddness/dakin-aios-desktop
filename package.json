@@ -1,0 +1,23 @@
+// {
+  "name": "dakin-aios-desktop",
+  "version": "1.0.0",
+  "description": "AIOS Desktop Application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "tsc && electron-builder",
+    "test": "pytest src/tests/"
+  },
+  "dependencies": {
+    "electron": "^25.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.0.0",
+    "socket.io-client": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "electron-builder": "^24.0.0"
+  }
+}
