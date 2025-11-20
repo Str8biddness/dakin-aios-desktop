@@ -1,0 +1,4 @@
+{
+  "openrouter_api_key": "your-openrouter-key-here",
+  "user_api_keys": ["key1", "key2"]  // Add valid keys
+}
